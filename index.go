@@ -17,7 +17,7 @@ func handler(ctx context.Context, res http.ResponseWriter, req *http.Request) {
 	fmt.Println("Received request")
 	fmt.Println(prettyPrint(req))      // echo to local output
 	// fmt.Fprintf(res, prettyPrint(req)) // echo to caller
-	fmt.Fprintf(res, "Hello, world333!") // echo to caller
+	fmt.Fprintf(res, "Hello, world 444!") // echo to caller
 }
 
 func prettyPrint(req *http.Request) string {
